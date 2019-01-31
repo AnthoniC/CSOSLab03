@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		873A212322038ECC00492DC5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 873A212222038ECC00492DC5 /* main.c */; };
+		873A212D22038F8300492DC5 /* MemoryTests.c in Sources */ = {isa = PBXBuildFile; fileRef = 873A212A22038F8300492DC5 /* MemoryTests.c */; };
+		873A212E22038F8300492DC5 /* ACMemory.c in Sources */ = {isa = PBXBuildFile; fileRef = 873A212B22038F8300492DC5 /* ACMemory.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		873A211F22038ECC00492DC5 /* MiniOS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MiniOS; sourceTree = BUILT_PRODUCTS_DIR; };
 		873A212222038ECC00492DC5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		873A212922038F8300492DC5 /* ACMemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACMemory.h; sourceTree = "<group>"; };
+		873A212A22038F8300492DC5 /* MemoryTests.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MemoryTests.c; sourceTree = "<group>"; };
+		873A212B22038F8300492DC5 /* ACMemory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ACMemory.c; sourceTree = "<group>"; };
+		873A212C22038F8300492DC5 /* MemoryTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MemoryTests.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				873A212222038ECC00492DC5 /* main.c */,
+				873A212B22038F8300492DC5 /* ACMemory.c */,
+				873A212922038F8300492DC5 /* ACMemory.h */,
+				873A212A22038F8300492DC5 /* MemoryTests.c */,
+				873A212C22038F8300492DC5 /* MemoryTests.h */,
 			);
 			path = MiniOS;
 			sourceTree = "<group>";
@@ -118,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				873A212D22038F8300492DC5 /* MemoryTests.c in Sources */,
 				873A212322038ECC00492DC5 /* main.c in Sources */,
+				873A212E22038F8300492DC5 /* ACMemory.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
