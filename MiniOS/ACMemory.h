@@ -66,12 +66,30 @@ void* get_bytes(OS_Memory* memory);
  */
 void* pop_bytes(OS_Memory* memory);
 
+/* Adds the overhead information to the list
+ * stack_ptr is the location to put the information
+ * size is the size of the new data
+ * ptr is the pointer to the last element of the stack
+ */
+void add_stack_element_overhead(void* stack_ptr, size_t size, void** ptr);
 
 
 /* Similar to malloc(), but all in user space */
 void* memory_alloc(OS_Memory* memory, size_t size);
 
+
 /* Similar to free(), but all in user space */
 void memory_dealloc(OS_Memory* memory, void* ptr);
+
+void add_heap_pointer(void* start_of_element, void* ptr_to_add);
+
+void add_heap_size(void* start_of_element, size_t size_to_add);
+
+void* get_heap_pointer(void* start_of_element);
+
+size_t get_heap_size(void* start_of_element);
+
+int is_free(void* ptr);
+
 
 #endif /* Memory420_h */

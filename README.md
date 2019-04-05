@@ -1,6 +1,6 @@
 # Lab 3: The Heap
 ### 100 Points
-### Name: 
+### Name: Anthoni Caravello
 
 **Objective:** Create a heap
 
