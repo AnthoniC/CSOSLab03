@@ -1,5 +1,6 @@
 # Lab 3: The Heap
-### 100 Points
+## Lab written by Dr. Aaron Block at Austin College for the Spring 2019 Operating Systems class
+
 ### Name: Anthoni Caravello
 
 **Objective:** Create a heap
